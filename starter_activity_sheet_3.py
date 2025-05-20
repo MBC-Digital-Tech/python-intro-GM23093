@@ -6,22 +6,25 @@ def cooking():
 
     # change these to your favourite meals
     print("1. Chicken curry ")
-    print("2. Veggie lasagne")
-    print("3. Burger and salad")
+    print("2. Lasagne")
+    print("3. Pizza")
+    print("4. Queche")
     # add one more meal here
     print()
     # adapt the next line to add in the 4.
-    print("Which of these meals is your favourite? (1, 2 or 3) ")
+    print("Which of these meals is your favourite? (1, 2, 3 or 4) ")
     # combine the line above and below into one command that accepts an integer instead of a string.
-    answer = input()
+    answer = int(input())
     # adapt the if else block to include the fourth meal and compares integers instead of strings.
-    if answer == "1":
+    if answer = 1:
         print("Chicken curry coming up")
-    elif answer == "2":
-        print("Veggie lasagne coming up")
+    elif answer = 2:
+        print("Lasagne coming up")
+    elif answer = 3:
+        print("Pizza coming up!")
     else:
-        print("Burger and salad coming up!")
+        print("Queche coming up!")
     print("Enjoy!")
-    
+cooking()
 # add a command to run the function above.
 
