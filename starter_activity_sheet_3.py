@@ -16,11 +16,11 @@ def cooking():
     # combine the line above and below into one command that accepts an integer instead of a string.
     answer = int(input())
     # adapt the if else block to include the fourth meal and compares integers instead of strings.
-    if answer = 1:
+    if answer == 1:
         print("Chicken curry coming up")
-    elif answer = 2:
+    elif answer == 2:
         print("Lasagne coming up")
-    elif answer = 3:
+    elif answer == 3:
         print("Pizza coming up!")
     else:
         print("Queche coming up!")
