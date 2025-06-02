@@ -7,19 +7,40 @@ from turtle import *
 # this line says we are using the "turtle" library of functions
 # remember to use this for turtle graphics in Python
 
-
-def mystery():
-    color('green', 'red')
+def square():
+    color('white', 'green')
     begin_fill()
-    forward (100) 
-    right (90)
-    forward (100) 
-    right (90) 
-    forward (100) 
-    right (90) 
-    forward (100)
-    right (90)
+    forward (10) 
+    right (45)
+    forward (10) 
+    right (45) 
+    forward (10) 
+    right (45) 
+    forward (10)
+    right (45)
+    forward (10) 
+    right (45)
+    forward (10) 
+    right (45) 
+    forward (10) 
+    right (45) 
+    forward (10)
+    right (45)
     end_fill()
-    done()
 
-mystery()
+
+def triangle():
+    penup()
+    forward(200)
+    pendown()
+    color('orange', 'purple')
+    begin_fill()
+    forward (50)
+    right (120)
+    forward (50)
+    right (120)
+    forward (50)
+    end_fill()
+triangle()
+square()
+done()
