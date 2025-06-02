@@ -1,0 +1,16 @@
+dog_list = ['Labrador', 'German Shepherd', 'Beagle', 'Bulldog', 'Poodle']
+print("Welcome to the Dog Breed Selector!")
+name = input("What is your name? ")
+print("Available Dog Breeds:")
+print(f"1. {dog_list[0]}")
+print(f"2. {dog_list[1]}")
+print(f"3. {dog_list[2]}")
+print(f"4. {dog_list[3]}")
+print(f"5. {dog_list[4]}")
+breed = int(input("Enter the number of your preffered breed: "))
+new_breed = breed - 1
+age = input("Enter the preferred age of dog (1-15): ")
+print()
+print(f"Thank you {name}!")
+print(f"You prefer a {dog_list[new_breed]} that is about {age} years old.")
+print("Good luck finding your perfect furry friend")
